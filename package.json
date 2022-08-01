@@ -9,6 +9,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0-rc.3"
+    "astro": "^1.0.0-rc.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-astro": "^0.2.0"
+  },
+  "dependencies": {
+    "@cloudfour/patterns": "^12.3.0"
   }
 }

@@ -1,42 +1,44 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			Check out the <code>src/pages</code> directory to get started.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Chat"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+<Layout
+	title="Sky Nav Cumulative Layout Shift and Progressive Enhancment demos"
+>
+	<header class="o-page__header u-pad-1 t-dark">
+		<h1>Cumulative Layout Shift and Progress Enhancement can be friends</h1>
+	</header>
+	<main id="main" class="o-page__content">
+		<div class="o-container o-container--pad">
+			<div class="o-container__content o-rhythm">
+				<p>
+					A series of demos showing the "burger" menu pattern and how an
+					excellent Cumulative Layout Score and Progressive Enhancement can play
+					well together.
+				</p>
+				<p>
+					Read Cloud Four's <a href="#todo">"TITLE" article</a> for demo details.
+				</p>
+				<h2>Demos</h2>
+				<ul>
+					<li>
+						<a href="/synchronous-inline-script">
+							Synchronous inline script demo
+						</a>
+					</li>
+					<li>
+						<a href="/target-pseudo-class">
+							<code>:target</code> pseudo-class demo
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</main>
 </Layout>
 
 <style>
-	:root {
+	/* :root {
 		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
 	}
 
@@ -91,5 +93,5 @@ import Card from "../components/Card.astro";
 		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
 		gap: 1rem;
 		padding: 0;
-	}
+	} */
 </style>
