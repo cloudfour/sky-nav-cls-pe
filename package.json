@@ -14,6 +14,8 @@
     "prettier-plugin-astro": "^0.2.0"
   },
   "dependencies": {
-    "@cloudfour/patterns": "^12.3.0"
+    "@cloudfour/patterns": "^12.3.0",
+    "astro-compress": "^0.0.15",
+    "astro-critters": "^0.0.10"
   }
 }
